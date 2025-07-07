@@ -1,0 +1,42 @@
+body {
+  color: black;
+  font-family: Verdana;
+  background-color: #B29AD9;
+}
+
+a:link {
+  text-decoration: underline;
+  color: #8754ff;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: #463769;
+}
+
+a:hover {
+  text-decoration: double underline;
+  color: #dea4c5;
+}
+
+a:active {
+  text-decoration: double underline;
+  color: #dea4c5;
+}
+
+#nekoweb
+{
+  margin: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#nekoweb img
+{
+  filter: drop-shadow(0.347em 0.36em 0rem rgba(27,54,74,0.09));
+}
+
+	
+.pixelated {
+  image-rendering: pixelated;
+}

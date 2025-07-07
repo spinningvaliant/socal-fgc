@@ -1,0 +1,227 @@
+<!-- template start -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socal strive</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="style_main.css" rel="stylesheet" type="text/css" media="all">
+	<style>
+		body {
+		cursor: url("cursor_strive_default.png") 4 10, default;
+		}
+		
+		a, a:hover, a:active
+		{
+		cursor: url("cursor_strive_link.png") 3 19, pointer;}
+		
+		#locals ul {
+		  margin: 0;
+		  padding: 0;
+		  list-style-type: none;
+		}
+		
+		#locals li {
+		  margin: 0;
+		  padding: 2px 0;
+		}
+		
+		#locals h1 {
+		  font-size:normal;
+		  padding: 0;
+		  margin: 0;
+		}
+		
+		#locals {
+		  width: 100%;
+		  border-radius: 0 0 10px 10px;
+		  border-left: 1px solid pink;
+		  border-right: 1px solid pink;
+		  border-bottom: 1px solid pink;
+		  border-spacing: 0px;
+		  /*background-color: #B29AD9;*/
+		  overflow: scroll;
+		}
+
+		#locals td, #locals th, #locals caption {
+		  padding: 8px;
+		}
+		
+		#locals tr td{
+		  border-top: 1px solid pink;
+		}
+		
+		#locals caption {
+		  border-width: 1px 1px 0px 1px;
+		  border-style: solid; 
+		  border-color: pink;
+		  border-radius: 10px 10px 0 0;
+		}
+
+		#locals tr:nth-child(even) td {
+		  background-color: #B29AD929;
+		}
+		
+		#locals tr:first-of-type{
+		  border-top:0;
+		}
+
+		#locals tr:hover td {
+		  background-color: #B29AD96E;
+		}
+
+		#locals th, #locals caption {
+		  padding-top: 12px;
+		  padding-bottom: 12px;
+		  background-color: #B29AD9;
+		  color: white;
+		}
+		
+		#locals tr:last-of-type td:first-of-type {
+		  border-bottom-left-radius: 9px;
+		}
+		
+		#locals tr:last-of-type td:last-of-type {
+		  border-bottom-right-radius: 9px;
+		}
+		
+		#header img
+		{width: 100%;}
+
+	@media (orientation:portrait){
+		#locals {
+		  font-size:75%;
+		}
+		
+		#locals th {
+		  padding-top: 6px;
+		  padding-bottom: 6px;
+		}
+		
+		#locals td, #locals th {
+		  padding: 4px;
+		}
+		}
+		
+</style>
+  </head>
+  
+  <body>
+	<div class="grid-container">
+
+	  <div id="header" class="grid-item">
+	    <img src="banner2.png" alt="">
+	  </div>
+
+	  <div id="sidebar" class="grid-item">
+		<div id="navigation">
+		  <ul id="navigationlist">
+			  <a href="index.html"><li>home</li></a>
+			  <a href="strive.html"><li>socal strive locals</li></a>
+		  </ul>
+		</div>
+	  </div>
+
+      <div id="content" class="grid-item">
+<!-- template end -->
+<!-- content start -->
+    	    <table id="locals">
+			<caption><h1>Socal Strive Locals</h1></caption>
+			  <tr>
+				<th>Name</th>
+				<th>Day/Frequency</th>
+				<th>Location</th>
+				<th>Date of Next Event</th>
+				<th>start.gg</th>
+			  </tr>
+			  <tr>
+				<td>Down Back Tuesdays (21+)</td>
+				<td><ul><li>Tuesday</li>
+				<li>Appx Monthly for Strive, every other biweekly event</li></ul></td>
+				<td>Mama Lion, Koreatown, Los Angeles</td>
+				<td>July 8, 2025</td>
+				<td><a href="https://www.start.gg/tournament/DBT">start.gg</a></td>
+			  </tr>
+			  <tr>
+				<td>Chain Link</td>
+				<td><ul><li>Wednesday</li>
+				<li>Biweekly</li></ul></td>
+				<td>BYOGames, East Los Angeles</td>
+				<td>July 9, 2025</td>
+				<td>?</td>
+			  </tr>
+			  <tr style="background-color: lime">
+				<td>Socal Colosseum</td>
+				<td><ul><li>Friday</li>
+				<li>Weekly, excluding Socal Colosseum Clash weeks</li></ul></td>
+				<td>Cooper's Esports, Irvine</td>
+				<td>July 4, 2025 (TODAY)</td>
+				<td><a href="https://www.start.gg/socalcolosseum">start.gg</a></td>
+			  </tr>
+			  <tr>
+				<td>Socal Colosseum Clash</td>
+				<td><ul><li>Saturday</li>
+				<li>Monthly, second Saturday</li></ul></td>
+				<td>Cooper's Esports, Irvine</td>
+				<td>July 12, 2025</td>
+				<td><a href="https://www.start.gg/socalclash">start.gg</a></td>
+			  </tr>
+			  <tr>
+				<td>Game Lab Mega Monthly</td>
+				<td><ul><li>Saturday</li>
+				<li>Monthly, usually second to last Saturday</li></ul></td>
+				<td>Riverside Game Lab, Riverside</td>
+				<td>?</td>
+				<td><a href="https://start.gg/glmm21">previous event start.gg</a></td>
+			  </tr>
+			  <tr>
+				<td>Hands On Victory</td>
+				<td><ul><li>Saturday</li>
+				<li>Monthly, usually last Saturday</li></ul></td>
+				<td>Game Realms, Burbank</td>
+				<td>?</td>
+				<td><a href="start.gg/hov">start.gg</a></td> 
+			  </tr>
+			  <tr>
+				<td>Zenith San Diego</td>
+				<td><ul><li>Saturday</li>
+				<li>Monthly, 4th or last Saturday</li></ul></td>
+				<td>VFW Post 3795, San Marcos</td>
+				<td>?</td>
+				<td><a href="https://www.start.gg/tournament/zenith-san-diego-41-recovery-frames">previous event start.gg</a></td>
+			  </tr>		
+			  <tr>
+				<td>Full Combo Fights</td>
+				<td><ul><li>Saturday</li>
+				<li>Monthly, third Saturday</li></ul></td>
+				<td>Buffalo Wild Wings, Chino Hills or Buffalo Wild Wings, Glendale</td>
+				<td>July 19, 2025</td>
+				<td><a href="https://www.start.gg/tournament/full-combo-fights-at-buffalo-wild-wings-chino-hills-july/details">start.gg</a></td>
+			  </tr>	
+			  <tr>
+				<td>Chains of Fate</td>
+				<td><ul><li>Sunday</li>
+				<li>Monthly, first or second Sunday</li></ul></td>
+				<td>Requiem Cafe, Anaheim</td>
+				<td>?</td>
+				<td><a href="https://www.start.gg/tournament/chains-of-fate-monthly-12-a-chain-shift-2025-event">previous event start.gg</a></td>
+			  </tr>
+			</table>
+			<section>
+			<p><b>see also:</b></p>
+			<ul>
+				<li><a href="https://www.start.gg/search/near_me?indices%5Bindex_id_hub%5D%5BrefinementList%5D%5Bpage%5D=1&indices%5Bindex_id_hub%5D%5Bpage%5D=1&indices%5Bindex_id_hub%5D%5Brange%5D%5Bpage%5D=1&refinementList%5Bevents.videogame.id%5D=33945&refinementList%5Bstate%5D%5B0%5D=1&page=1&configure%5BhitsPerPage%5D=10&configure%5Bfilters%5D=profileType%3Atournament&configure%5BaroundLatLngViaIP%5D=false&configure%5BaroundLatLng%5D=33.6845673%2C%20-117.8265049&configure%5BaroundRadius%5D=160934">start.gg search</a></li>
+				<li><a href="https://discord.gg/dD3Dk2wrjs">SoCal Strivers discord, event announcements channel</a></li>
+			</ul>
+			</section>
+			<p><i>please feel free to contact me with any updates or corrections, multiple methods of contact are available on my <a href="https://mini-nyanko.nekoweb.org/card.html">card</a>. you are also <b>strongly encouraged</b> to use this info/code for your own projects, no credit necessary (although i'd love to hear about it!)</i></p>
+<!-- content end -->
+<!-- template start -->
+	  </div>
+
+	</div>
+	   
+  </body>
+</html>
+<!-- template end -->

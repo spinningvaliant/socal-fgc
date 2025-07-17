@@ -1,3 +1,5 @@
+https://socalfgc.net
+
 hello! this project is intended to be a resource providing tournament information and discord links for southern california fighting game communities. i am a strive player so that's what we have right now! 
 
 to do:

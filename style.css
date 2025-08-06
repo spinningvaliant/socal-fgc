@@ -71,25 +71,25 @@ div#sidebar{
 	max-height:100vh;
 	}
 
-/*formatting for locals table*/ 		
-		.locals ul {
+/*formatting for events tables*/ 		
+		.events ul {
 		  margin: 0;
 		  padding: 0;
 		  list-style-type: none;
 		}
 		
-		.locals li {
+		.events li {
 		  margin: 0;
 		  padding: 2px 0;
 		}
 		
-		.locals h1 {
+		.events h1 {
 		  font-size:normal;
 		  padding: 0;
 		  margin: 0;
 		}
 		
-		.locals {
+		.events {
 		  width: 100%;
 		  border-radius: 0 0 10px 10px;
 		  border-left: 1px solid pink;
@@ -97,47 +97,48 @@ div#sidebar{
 		  border-bottom: 1px solid pink;
 		  border-spacing: 0px;
 		  overflow: scroll;
+		  margin-bottom: 12px;
 		}
 
-		.locals td, .locals th, .locals caption {
+		.events td, .events th, .events caption {
 		  padding: 8px;
 		}
 		
-		.locals tr td{
+		.events tr td{
 		  border-top: 1px solid pink;
 		}
 		
-		.locals caption {
+		.events caption {
 		  border-width: 1px 1px 0px 1px;
 		  border-style: solid; 
 		  border-color: pink;
 		  border-radius: 10px 10px 0 0;
 		}
 
-		.locals tr:nth-child(even) td {
+		.events tr:nth-child(even) td {
 		  background-color: #B29AD929;
 		}
 		
-		.locals tr:first-of-type{
+		.events tr:first-of-type{
 		  border-top:0;
 		}
 
-		.locals tr:hover td {
+		.events tr:hover td {
 		  background-color: #B29AD96E;
 		}
 
-		.locals th, .locals caption {
+		.events th, .events caption {
 		  padding-top: 12px;
 		  padding-bottom: 12px;
 		  background-color: #B29AD9;
 		  color: white;
 		}
 		
-		.locals tr:last-of-type td:first-of-type {
+		.events tr:last-of-type td:first-of-type {
 		  border-bottom-left-radius: 9px;
 		}
 		
-		.locals tr:last-of-type td:last-of-type {
+		.events tr:last-of-type td:last-of-type {
 		  border-bottom-right-radius: 9px;
 		}
 
@@ -159,16 +160,16 @@ div#sidebar{
 	  	grid-row-end: 4
 		}
 		
-		.locals {
+		.events {
 		  font-size:75%;
 		}
 		
-		.locals th {
+		.events th {
 		  padding-top: 6px;
 		  padding-bottom: 6px;
 		}
 		
-		.locals td, .locals th {
+		.events td, .events th {
 		  padding: 4px;
 		}
 	}

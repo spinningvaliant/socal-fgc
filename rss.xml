@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://socalfgc.net/">
+  <title>SoCal FGC Blog</title>
+  <subtitle>SoCal FGC insights and updates</subtitle>
+  <link href="https://socalfgc.net/rss.xml" rel="self"/>
+  <updated>2025-08-14T00:00:00Z</updated>
+  <id>https://socalfgc.net/</id>
+  <author>
+    <name>SoCal FGC Team</name>
+  </author>
+  <entry>
+    <title>eleventy woes continue</title>
+    <link href="https://socalfgc.net/posts/2025-08-14-eleventy.html"/>
+    <updated>2025-08-14T00:00:00Z</updated>
+    <id>https://socalfgc.net/posts/2025-08-14-eleventy.html</id>
+    <content xml:lang="" type="html"><![CDATA[<img src="https://yourwebsitehere.com/images/">]]>eleventy is my best friend</content>
+  </entry>
+  <entry>
+    <title>Tekken</title>
+    <link href="https://socalfgc.net/posts/2025-08-13-Tekken.html"/>
+    <updated>2025-08-13T00:00:00Z</updated>
+    <id>https://socalfgc.net/posts/2025-08-13-Tekken.html</id>
+    <content xml:lang="" type="html"><![CDATA[<img src="https://yourwebsitehere.com/images/">]]>Tekken page added!</content>
+  </entry>
+  <entry>
+    <title>Eleventy Migration</title>
+    <link href="https://socalfgc.net/posts/2025-08-13-Eleventy-Migration.html"/>
+    <updated>2025-08-13T00:00:00Z</updated>
+    <id>https://socalfgc.net/posts/2025-08-13-Eleventy-Migration.html</id>
+    <content xml:lang="" type="html"><![CDATA[<img src="https://yourwebsitehere.com/images/">]]>Brief update on Eleventy migration</content>
+  </entry>
+</feed>

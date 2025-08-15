@@ -1,0 +1,295 @@
+body {
+  color: black;
+  font-family: Verdana;
+  background-color: #B29AD9;
+  cursor: url("/images/cursor_strive_default.png") 0 0, default;
+
+}
+
+a:link {
+  text-decoration: underline;
+  color: #8754ff;
+}
+
+a:visited {
+  text-decoration: underline;
+  color: #463769;
+}
+
+a:active, a:hover {
+  text-decoration: double underline;
+  color: #dea4c5;
+}
+		
+a, a:hover, a:active {
+  cursor: url("/images/cursor_strive_link.png") 0 0, pointer;
+}
+
+.grid-container{
+	display: grid;
+ 	grid-template-columns: 25% 75%;
+	}
+	
+.grid-item{
+	display: inline-grid;
+	}
+	
+div#header, div#navigation, div#content{
+	border: 1px dotted #9400FF;
+	border-radius: 1em;
+	box-sizing: border-box;
+	}
+	
+div#navigation, div#content{
+	padding: 1em;
+	background-color: white;
+	overflow: auto;
+	}
+
+div#header{
+  	grid-column-start: 1;
+  	grid-column-end: 3;
+	background-image: url("/images/banner2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+div#header img{
+	height:auto;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 1em;
+	max-width:25%;
+	}
+
+div#sidebar{
+	height: fit-content;
+	}
+	
+#content img{	
+	margin:auto; 
+	border-radius: 1em; 
+	border: 1px dotted pink;
+	display:block;
+	max-width:100%;
+	max-height:100vh;
+	}
+
+/*formatting for events tables*/ 		
+		table ul {
+		  margin: 0;
+		  padding: 0;
+		  list-style-type: none;
+		}
+		
+		table li {
+		  margin: 0;
+		  padding: 2px 0;
+		}
+		
+		table h1 {
+		  font-size:normal;
+		  padding: 0;
+		  margin: 0;
+		}
+		
+		table.events {
+		  border-radius: 0 0 10px 10px;
+		  border-left: 1px solid pink;
+		  border-right: 1px solid pink;
+		  border-bottom: 1px solid pink;
+		}
+		
+		table {
+		  width: 100%;
+		  border: 1px solid pink;
+		  border-spacing: 0px;
+		  overflow: scroll;
+		  margin-bottom: 12px;
+		  border-radius: 10px;
+		}
+
+		table td, table th, table caption {
+		  padding: 8px;
+		}
+		
+		table tr td{
+		  border-top: 1px solid pink;
+		}
+		
+		table.events caption {
+		  border-width: 1px 1px 0px 1px;
+		  border-style: solid; 
+		  border-color: pink;
+		  border-radius: 10px 10px 0 0;
+		}
+
+		table tr:nth-child(even) td {
+		  background-color: #B29AD929;
+		}
+
+		table tr:hover td {
+		  background-color: #B29AD96E;
+		}
+
+		table th, table.events caption {
+		  padding-top: 12px;
+		  padding-bottom: 12px;
+		  background-color: #B29AD9;
+		  color: white;
+		}
+		
+		table tr:last-of-type td:first-of-type {
+		  border-bottom-left-radius: 9px;
+		}
+		
+		table tr:last-of-type td:last-of-type {
+		  border-bottom-right-radius: 9px;
+		}
+		
+		table tr:first-of-type th:first-of-type {
+		  border-top-left-radius: 9px;
+		}
+		
+		table tr:first-of-type th:last-of-type {
+		  border-top-right-radius: 9px;
+		}
+		
+		table.events tr:first-of-type th:first-of-type {
+		  border-top-left-radius: 0;
+		}
+		
+		table.events tr:first-of-type th:last-of-type {
+		  border-top-right-radius: 0;
+		}
+
+/* mobile */
+@media (orientation:portrait){
+		.grid-container
+		{display: grid;
+		grid-template-rows: auto auto auto;
+		grid-template-columns: auto;
+		}
+
+		div#header{
+		grid-column-start: 1;
+	  	grid-column-end: 2;
+		}
+
+		div#sidebar{
+		grid-row-start: 3;
+	  	grid-row-end: 4
+		}
+		
+		table {
+		  font-size:75%;
+		}
+		
+		table th {
+		  padding-top: 6px;
+		  padding-bottom: 6px;
+		}
+		
+		table td, table th {
+		  padding: 4px;
+		}
+	}
+
+* {
+  box-sizing: border-box;
+}
+
+#flex {
+  display: flex;
+}
+
+article {
+
+}
+
+h1, h2, h3, h4 {
+  color: #6b3286;
+}
+
+hr {
+  border: solid #B29AD9;
+  border-width: 1px 0 0 0;
+}
+
+blockquote {
+  padding: 0 20px;
+  margin-left: 0;
+  border-left: 2px dotted #B29AD9;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+ul.none {
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Alignment classes */
+.right {
+  float: right;
+  margin-left: 1em;
+}
+.left {
+  float: left;
+  margin-right: 1em;
+}
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+/* Recent Blog Posts block in index.html */
+#recentPostList ul {
+  /*padding: 0;
+  list-style-type: none;*/
+}
+
+/* Date/tags bar at the top of blog posts */
+.postMetadata {
+  background-color: #B29AD9;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: #9400FF;
+  border-radius: 10px;
+}
+
+/* At the bottom of blog posts */
+#nextprev {
+  text-align: center;
+  margin-top: 1.4em;
+}
+
+/* Go To Top button */
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline-width: 1px;
+  outline-style: dotted;
+  outline-color: #9400FF;
+  border-radius: 1em;
+  background-color: #B29AD9;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+}
+#topBtn:hover {
+  text-decoration: double underline;
+  color: white;
+  background-color: #dea4c5;
+
+}

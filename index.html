@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoCal FGC: Home</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="https://socalfgc.net/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed for SoCal FGC">
+	<meta name="description" content="Resource for members of the Southern California Fighting Game community!">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SoCal FGC: Home">
+    <meta property="og:url" content="https://socalfgc.net/">
+    <meta property="og:image" content="https://socalfgc.net/images/favicon.png">
+    <meta property="og:description" content="Mission and other resource links!">
+  </head>
+  
+  <body>
+  <main>
+	<div class="grid-container">
+
+	  <div id="header" class="grid-item">
+	    <img src="/images/favicon.png" alt="">
+	  </div>
+
+	  <div id="sidebar" class="grid-item">
+		<div id="navigation">
+<ul><li><a href="/">Home</a></li>
+<li><a href="/blog.html">Blog</a></li>
+<li><a href="/strive.html">Guilty Gear Strive</a></li>
+<li><a href="/tekken.html">Tekken</a></li></ul>
+		</div>
+	  </div>
+
+      <div id="content" class="grid-item">
+	  <h1>welcome to socal fgc!</h1>
+<p>hello! this project is intended to be a resource providing tournament information and discord links for southern california fighting game communities. i am a strive player so that’s what we have right now!</p>
+<p>please check out our <a href="https://github.com/spinningvaliant/socal-fgc">github project</a> if you would like to contribute, or simply to look under the hood. if you don’t code (no problem!) but have something you want to add, feel free to reach out to me at <b>spinningvaliant</b> on discord or <a href="mailto:lmohan0@proton.me">email me</a>.</p>
+<h2>other resources:</h2>
+<ul>
+<li><a href="https://srk.shib.live/w/SuperCombo_Wiki:Community_portal/Discords/Region#North_America">SuperCombo Wiki’s Regional Discord List (look for USA (California (South))</a></li>
+<li><a href="https://www.start.gg/search/near_me?query=&amp;indices%5Bindex_id_hub%5D%5Bpage%5D=1&amp;indices%5Bindex_id_hub%5D%5BrefinementList%5D%5Bpage%5D=1&amp;indices%5Bindex_id_hub%5D%5Brange%5D%5Bpage%5D=1&amp;configure%5BhitsPerPage%5D=10&amp;configure%5Bfilters%5D=profileType%3Atournament&amp;configure%5BaroundLatLngViaIP%5D=false&amp;configure%5BaroundRadius%5D=160934&amp;configure%5BaroundLatLng%5D=33.6845673%2C%20-117.8265049&amp;refinementList%5Bstate%5D%5B0%5D=1&amp;page=1&amp;range%5BstartAt%5D%5Bmin%5D=1752105600&amp;range%5BstartAt%5D%5Bmax%5D=1768003200%22">start.gg search</a></li>
+<li><a href="https://docs.google.com/spreadsheets/u/0/d/1rJdulqidZY_Cdw1S30aLXMFWzttaelxIKyaK-_uZbuc/htmlview#gid=0%22">FGC Locals Spreadsheet</a></li>
+<li><a href="https://www.socaltekkenlocals.com%22">SoCal Tekken Locals</a></li>
+<li><a href="https://fgcatucla.com%22">FGC at UCLA</a></li>
+<li><a href="https://x.com/SanDiego_FGC%22">San Diego FGC - dates and results for San Diego locals</a></li>
+</ul>
+<h2>inspirations:</h2>
+<ul>
+<li><a href="https://www.socalsmash.net/%22">SocalSmash.net</a></li>
+<li><a href="https://michiganfgc.com/%22">Michigan Fighting Game Community</a></li>
+<li><a href="https://ohiofgc.com/%22">Ohio Fighting Game Community</a></li>
+</ul>
+<hr>
+<!-- This next part will show your top three most recent posts. You can change how readableDate looks in your .eleventy.js file-->
+<h2>recent blog posts:</h2>
+<div id="recentPostList">
+  <ul>
+  <li><a href="/posts/2025-08-14-eleventy.html">2025-08-14 » eleventy woes continue</a></li>
+  <li><a href="/posts/2025-08-13-Tekken.html">2025-08-13 » Tekken</a></li>
+  <li><a href="/posts/2025-08-13-Eleventy-Migration.html">2025-08-13 » Eleventy Migration</a></li>
+</div>
+	  	  </div>
+
+	</div>
+    </main>   
+    <!--this will add a 'Go to top' button on your site-->
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    
+    <script>
+      let topbutton = document.getElementById("topBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          topbutton.style.display = "block";
+        } else {
+          topbutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!--end top button code-->
+  </body>
+</html>

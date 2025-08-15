@@ -1,0 +1,11 @@
+---
+layout: base.njk
+featured_image: favicon.png
+---
+        <article>
+            <h1>Tagged “{{ tag }}”</h1>
+
+            <!--The content of "tag.md" i.e. list of pages in this tag-->
+            {{ content | safe }}
+
+        </article>

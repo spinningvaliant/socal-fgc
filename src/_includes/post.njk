@@ -1,0 +1,32 @@
+---
+title: "SoCal FGC Blog: {{ title }}"
+layout: base.njk
+---
+
+        <article>
+          <h1>{{ title }}</h1>
+
+          <div class="postMetadata">
+          <!--You can change how topDate looks in your .eleventy.js file-->
+          <strong>{{ page.date | topDate }}</strong> //
+          <!--This will list the tags on your post EXCEPT for the "post" tag, separated by commas-->
+          {% set comma = joiner() %}
+            {% for tag in tags -%}
+              {% if tag !== 'posts' %}<a href="../tags/{{ tag | slugify }}.html">{{ tag }}</a>{%- if not loop.last %}, {% endif %}
+            {% endif %}
+          {%- endfor %}</div>
+          
+          <!--The content of your post-->
+          {{ content | safe }}
+          
+          <!--This will take you to the next/previous blog entries if they exist-->
+          <nav id="nextprev">
+          {% if nextPost.url %}
+          <a class="next" href="{{ nextPost.url }}">« Next</a> |
+          {% endif %}
+          <a href="../archives.html">Archives</a>
+          {% if prevPost.url %}
+          | <a class="previous" href="{{ prevPost.url }}">Previous »</a>
+          {% endif %}
+          </nav>
+        </article>

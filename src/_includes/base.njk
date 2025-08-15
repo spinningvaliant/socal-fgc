@@ -1,0 +1,62 @@
+---
+title: "SoCal FGC: {{ title }}"
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoCal FGC: {{ title }}</title>
+    <link href="/styles/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="https://socalfgc.net/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed for SoCal FGC">
+	<meta name="description" content="Resource for members of the Southern California Fighting Game community!">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SoCal FGC: {{ title }}">
+    <meta property="og:url" content="https://socalfgc.net/{{ permalink }}">
+    <meta property="og:image" content="https://socalfgc.net/images/{{ featured_image }}">
+    <meta property="og:description" content="{{ description }}">
+  </head>
+  
+  <body>
+  <main>
+	<div class="grid-container">
+
+	  <div id="header" class="grid-item">
+	    <img src="/images/favicon.png" alt="">
+	  </div>
+
+	  <div id="sidebar" class="grid-item">
+		<div id="navigation">
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+		</div>
+	  </div>
+
+      <div id="content" class="grid-item">
+	  {{ content | safe }}
+	  	  </div>
+
+	</div>
+    </main>   
+    <!--this will add a 'Go to top' button on your site-->
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    
+    <script>
+      let topbutton = document.getElementById("topBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          topbutton.style.display = "block";
+        } else {
+          topbutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!--end top button code-->
+  </body>
+</html>

@@ -6,7 +6,7 @@ featured_image: favicon.png
 permalink: "{{ page.fileSlug }}.html"
 eleventyNavigation:
   key: "Guilty Gear Strive"
-  order: 3
+  order: 5
 ---
 
 <table class="events">
@@ -27,7 +27,7 @@ eleventyNavigation:
 					</ul>
 					</td>
 				<td>Mama Lion, Koreatown, Los Angeles</td>
-				<td>August 19, 2025</td>
+				<td>?</td>
 				<td><a href="https://www.start.gg/DBT">start.gg</a></td>
 			  </tr>
 			  <tr>
@@ -56,7 +56,7 @@ eleventyNavigation:
 					</ul>
 					</td>
 				<td>Cooper's Esports, Irvine</td>
-				<td>August 15, 2025</td>
+				<td>August 22, 2025</td>
 				<td>
 					<ul>
 						<li><a href="https://www.start.gg/socalcolosseum">start.gg</a></li>
@@ -154,7 +154,7 @@ eleventyNavigation:
 					</ul>
 					</td>
 				<td>Buffalo Wild Wings, Chino Hills or Buffalo Wild Wings, Glendale</td>
-				<td>?August 16, 2025</td>
+				<td>?</td>
 				<td><a href="https://www.start.gg/tournament/full-combo-fights-at-buffalo-wild-wings-chino-hills-july/details">last event start.gg</a></td>
 			  </tr>	
 			  <tr>

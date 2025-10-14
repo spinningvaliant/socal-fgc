@@ -181,8 +181,7 @@ eleventyNavigation:
 						<td>UCI, Irvine</td>
 						<td>October 16</td>
 						<td><ul><li><a href="https://start.gg/anthillarena">start.gg</a></li><li><a href="https://discord.gg/xHhSeaQ">discord</a></li></ul></td></tr>
-			
-			</table>		
+			</table>
 			<table class="events">
 			<caption><h1>Regionals/Majors</h1></caption>
 			  <tr>
@@ -197,8 +196,12 @@ eleventyNavigation:
 				<td>November 8-9, 2025</td>
 				<td><a href="https://start.gg/RISC2025">start.gg</a></td>
 			  </tr>
+					<tr>
+						<td><span style="text-transform:uppercase">counterhit</span></td>
+						<td>November 14-16</td>
+						<td><a href="">start.gg</a></td>
+					</tr>
 			</table>
-			
 			<section>
 			<p><b>see also:</b></p>
 			<ul>

@@ -204,9 +204,8 @@ eleventyNavigation:
 					</tr>
 					<tr>
 						<td>Bronco Brawl Fall 2025</td>
-						<td>Pomona</td>
-						<td>November 23</td>
 						<td>Cal Poly Pomona's College of Business Administration, Pomona<td>
+						<td>November 23</td>
 						<td><a href="https://www.start.gg/tournament/bronco-brawl-fall-2025/details">start.gg</a></td>
 					</tr>
 			</table>

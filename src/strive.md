@@ -202,6 +202,13 @@ eleventyNavigation:
       <td>November 14-16</td>
 						<td><a href="https://www.start.gg/tournament/counterhit-a-cali-cup-fgc-event-with-chain-shift-events-av-underground/details">start.gg</a></td>
 					</tr>
+					<tr>
+						<td>Bronco Brawl Fall 2025</td>
+						<td>Pomona</td>
+						<td>November 23</td>
+						<td>Cal Poly Pomona's College of Business Administration, Pomona<td>
+						<td><a href="https://www.start.gg/tournament/bronco-brawl-fall-2025/details">start.gg</a></td>
+					</tr>
 			</table>
 			<section>
 			<p><b>see also:</b></p>
